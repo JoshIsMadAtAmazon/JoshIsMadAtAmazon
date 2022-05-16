@@ -1,0 +1,37 @@
+if game.PlaceId == 7009799230 then
+loadstring(game:HttpGet("https://pastebin.com/raw/bdCZC8Sx",true))()
+elseif game.PlaceId == 9030362964 then
+loadstring(game:HttpGet("https://pastebin.com/raw/whxzqwAf",true))()
+elseif game.PlaceId == 5490351219 then
+loadstring(game:HttpGet("https://pastebin.com/raw/uuFB44fk",true))()
+else 
+   getgenv().IrisAd = true 
+    local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+ 
+Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness", {
+    MainSettings = {
+        Orientation = "Left",
+        VisibleSize = UDim2.new(0.5, 0, 0.5, 0);
+        HiddenSize  = UDim2.new(0, 0, 0.5, 0),
+        TweenTime   = 0.8
+    },
+})
+ 
+Notification.Notify("Joshy", "You Can't Use This Here.", "rbxassetid://295300091", {
+    Duration = 7,
+    
+    TitleSettings = {
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Font = Enum.Font.SourceSansSemibold,
+    },
+ 
+    GradientSettings = {
+        GradientEnabled = false,
+        SolidColorEnabled = true,
+        SolidColor = Color3.fromRGB(124, 83, 240),
+        Retract = true
+    }
+})
+    wait(10) 
+    game.Players.LocalPlayer:Kick("You Can't Use This Here.")
+end
