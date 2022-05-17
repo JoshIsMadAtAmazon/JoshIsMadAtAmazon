@@ -8,11 +8,13 @@ elseif game.PlaceId == 9281034297 then
 loadstring(game:HttpGet("https://pastebin.com/raw/1L0iL9kf",true))()
 elseif game.PlaceId == 4950394908 then
 loadstring(game:HttpGet("https://pastebin.com/raw/wuGkjukB",true))()
+elseif game.PlaceId == 4962588958 then
+loadstring(game:HttpGet("https://pastebin.com/raw/pmRQ6fBk",true))()
 else 
    getgenv().IrisAd = true 
     local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
  
-Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness, Goal Kick Simulator", {
+Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness, Goal Kick Simulator, Ragdoll Simulator, Teamwork Obby", {
     MainSettings = {
         Orientation = "Left",
         VisibleSize = UDim2.new(0.5, 0, 0.5, 0);
