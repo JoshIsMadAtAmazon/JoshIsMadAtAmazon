@@ -1,45 +1,82 @@
 if game.PlaceId == 7009799230 then
-loadstring(game:HttpGet("https://pastebin.com/raw/bdCZC8Sx",true))()
-elseif game.PlaceId == 9030362964 then
-loadstring(game:HttpGet("https://pastebin.com/raw/whxzqwAf",true))()
-elseif game.PlaceId == 5490351219 then
-loadstring(game:HttpGet("https://pastebin.com/raw/uuFB44fk",true))()
-elseif game.PlaceId == 9281034297 then
-loadstring(game:HttpGet("https://pastebin.com/raw/1L0iL9kf",true))()
-elseif game.PlaceId == 4950394908 then
-loadstring(game:HttpGet("https://pastebin.com/raw/wuGkjukB",true))()
-elseif game.PlaceId == 4962588958 then
-loadstring(game:HttpGet("https://pastebin.com/raw/pmRQ6fBk",true))()
-elseif game.PlaceId == 3101667897 then
-loadstring(game:HttpGet("https://pastebin.com/raw/UxTpi7ND",true))()
-else 
-   getgenv().IrisAd = true 
-    local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
- 
-Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness, Goal Kick Simulator, Ragdoll Simulator, Teamwork Obby", {
-    MainSettings = {
-        Orientation = "Left",
-        VisibleSize = UDim2.new(0.5, 0, 0.5, 0);
-        HiddenSize  = UDim2.new(0, 0, 0.5, 0),
-        TweenTime   = 0.8
-    },
-})
- 
-Notification.Notify("Joshy", "You Can't Use This Here.", "rbxassetid://295300091", {
-    Duration = 7,
-    
-    TitleSettings = {
-        TextXAlignment = Enum.TextXAlignment.Center,
-        Font = Enum.Font.SourceSansSemibold,
-    },
- 
-    GradientSettings = {
-        GradientEnabled = false,
-        SolidColorEnabled = true,
-        SolidColor = Color3.fromRGB(124, 83, 240),
-        Retract = true
-    }
-})
-    wait(10) 
-    game.Players.LocalPlayer:Kick("You Can't Use This Here.")
+    loadstring(game:HttpGet("https://pastebin.com/raw/bdCZC8Sx",true))()
+    elseif game.PlaceId == 9030362964 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/whxzqwAf",true))()
+    elseif game.PlaceId == 5490351219 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/uuFB44fk",true))()
+    elseif game.PlaceId == 9281034297 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/1L0iL9kf",true))()
+    elseif game.PlaceId == 4950394908 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/wuGkjukB",true))()
+    elseif game.PlaceId == 4962588958 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/pmRQ6fBk",true))()
+    elseif game.PlaceId == 3101667897 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/UxTpi7ND",true))()
+    else 
+       getgenv().IrisAd = true 
+        local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+     
+    Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness, Goal Kick Simulator, Ragdoll Simulator, Teamwork Obby, Legends Of Speed.", {
+        MainSettings = {
+            Orientation = "Left",
+            VisibleSize = UDim2.new(0.5, 0, 0.5, 0);
+            HiddenSize  = UDim2.new(0, 0, 0.5, 0),
+            TweenTime   = 0.8
+        },
+    })
+     
+    Notification.Notify("Joshy", "You Can't Use This Here.", "rbxassetid://295300091", {
+        Duration = 7,
+        
+        TitleSettings = {
+            TextXAlignment = Enum.TextXAlignment.Center,
+            Font = Enum.Font.SourceSansSemibold,
+        },
+     
+        GradientSettings = {
+            GradientEnabled = false,
+            SolidColorEnabled = true,
+            SolidColor = Color3.fromRGB(124, 83, 240),
+            Retract = true
+        }
+    })
+wait(7)
+        local Numbers = {1, 2, 3, 4, 5, 6, 7}
+        local RandomNumber = math.random(#Numbers)
+        if RandomNumber == 1 then
+local TeleportService = game:GetService("TeleportService")
+
+local Place = 7009799230
+TeleportService:Teleport(Place, player)
+        elseif RandomNumber == 2 then
+local TeleportService = game:GetService("TeleportService")
+
+local Place = 9030362964
+TeleportService:Teleport(Place, player)
+        elseif RandomNumber == 3 then
+local TeleportService = game:GetService("TeleportService")
+
+local Place = 5490351219
+TeleportService:Teleport(Place, player)
+        elseif RandomNumber == 4 then
+local TeleportService = game:GetService("TeleportService")
+
+local Place = 9281034297
+TeleportService:Teleport(Place, player)
+        elseif RandomNumber == 5 then
+local TeleportService = game:GetService("TeleportService")
+
+local Place = 4950394908
+TeleportService:Teleport(Place, player)
+        elseif RandomNumber == 6 then
+local TeleportService = game:GetService("TeleportService")
+
+local Place = 4962588958
+TeleportService:Teleport(Place, player)
+        elseif RandomNumber == 7 then
+local TeleportService = game:GetService("TeleportService")
+
+local Place = 3101667897
+TeleportService:Teleport(Place, player)
+    end
 end
