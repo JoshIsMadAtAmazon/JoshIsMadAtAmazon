@@ -45,36 +45,7 @@ if game.PlaceId == 7009799230 then
         }
     })
 wait(7)
-        local Numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9}
-        local RandomNumber = math.random(#Numbers)
-        if RandomNumber == 1 then
-game:GetService("TeleportService"):Teleport(7009799230)
-
-        elseif RandomNumber == 2 then
-game:GetService("TeleportService"):Teleport(9030362964)
-
-        elseif RandomNumber == 3 then
-game:GetService("TeleportService"):Teleport(5490351219)
-
-        elseif RandomNumber == 4 then
-game:GetService("TeleportService"):Teleport(9281034297)
-
-        elseif RandomNumber == 5 then
-game:GetService("TeleportService"):Teleport(4950394908)
-
-        elseif RandomNumber == 6 then
-game:GetService("TeleportService"):Teleport(4962588958)
-
-        elseif RandomNumber == 7 then
-game:GetService("TeleportService"):Teleport(3101667897)
-
-        elseif RandomNumber == 8 then
-game:GetService("TeleportService"):Teleport(6760094212)
-
-        elseif RandomNumber == 9 then
-game:GetService("TeleportService"):Teleport(8137333410)
-
-    end
+loadstring(game:HttpGet("https://pastebin.com/raw/gatSNrup",true))()
 end
 local queue_on_teleport =
 queue_on_teleport or
