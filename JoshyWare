@@ -76,3 +76,9 @@ game:GetService("TeleportService"):Teleport(8137333410)
 
     end
 end
+local queue_on_teleport =
+queue_on_teleport or
+    syn and
+        syn.queue_on_teleport [[
+       repeat wait() until game:IsLoaded() wait(2.5)
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshIsMadAtAmazon/JoshIsMadAtAmazon/main/JoshyWare"))()]]
