@@ -48,52 +48,31 @@ wait(7)
         local Numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9}
         local RandomNumber = math.random(#Numbers)
         if RandomNumber == 1 then
-local TeleportService = game:GetService("TeleportService")
+game:GetService("TeleportService"):Teleport(7009799230)
 
-local Place = 7009799230
-TeleportService:Teleport(Place, player)
         elseif RandomNumber == 2 then
-local TeleportService = game:GetService("TeleportService")
+game:GetService("TeleportService"):Teleport(9030362964)
 
-local Place = 9030362964
-TeleportService:Teleport(Place, player)
         elseif RandomNumber == 3 then
-local TeleportService = game:GetService("TeleportService")
+game:GetService("TeleportService"):Teleport(5490351219)
 
-local Place = 5490351219
-TeleportService:Teleport(Place, player)
         elseif RandomNumber == 4 then
-local TeleportService = game:GetService("TeleportService")
+game:GetService("TeleportService"):Teleport(9281034297)
 
-local Place = 9281034297
-TeleportService:Teleport(Place, player)
         elseif RandomNumber == 5 then
-local TeleportService = game:GetService("TeleportService")
+game:GetService("TeleportService"):Teleport(4950394908)
 
-local Place = 4950394908
-TeleportService:Teleport(Place, player)
         elseif RandomNumber == 6 then
-local TeleportService = game:GetService("TeleportService")
+game:GetService("TeleportService"):Teleport(4962588958)
 
-local Place = 4962588958
-TeleportService:Teleport(Place, player)
         elseif RandomNumber == 7 then
-local TeleportService = game:GetService("TeleportService")
-
-local Place = 3101667897
-TeleportService:Teleport(Place, player)
+game:GetService("TeleportService"):Teleport(3101667897)
 
         elseif RandomNumber == 8 then
-local TeleportService = game:GetService("TeleportService")
-
-local Place = 6760094212
-TeleportService:Teleport(Place, player)
+game:GetService("TeleportService"):Teleport(6760094212)
 
         elseif RandomNumber == 9 then
-local TeleportService = game:GetService("TeleportService")
-
-local Place = 8137333410
-TeleportService:Teleport(Place, player)
+game:GetService("TeleportService"):Teleport(8137333410)
 
     end
 end
