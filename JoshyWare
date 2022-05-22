@@ -12,11 +12,13 @@ if game.PlaceId == 7009799230 then
     loadstring(game:HttpGet("https://pastebin.com/raw/pmRQ6fBk",true))()
     elseif game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://pastebin.com/raw/UxTpi7ND",true))()
+    elseif game.PlaceId == 6760094212 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/rnD0K8q2",true))()
     else 
        getgenv().IrisAd = true 
         local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
      
-    Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness, Goal Kick Simulator, Ragdoll Simulator, Teamwork Obby, Legends Of Speed.", {
+    Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness, Goal Kick Simulator, Ragdoll Simulator, Teamwork Obby, Legends Of Speed, Space Simulator 2.", {
         MainSettings = {
             Orientation = "Left",
             VisibleSize = UDim2.new(0.5, 0, 0.5, 0);
@@ -41,7 +43,7 @@ if game.PlaceId == 7009799230 then
         }
     })
 wait(7)
-        local Numbers = {1, 2, 3, 4, 5, 6, 7}
+        local Numbers = {1, 2, 3, 4, 5, 6, 7, 8}
         local RandomNumber = math.random(#Numbers)
         if RandomNumber == 1 then
 local TeleportService = game:GetService("TeleportService")
@@ -78,5 +80,12 @@ local TeleportService = game:GetService("TeleportService")
 
 local Place = 3101667897
 TeleportService:Teleport(Place, player)
+
+        elseif RandomNumber == 8 then
+local TeleportService = game:GetService("TeleportService")
+
+local Place = 6760094212
+TeleportService:Teleport(Place, player)
+
     end
 end
