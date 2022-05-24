@@ -22,8 +22,7 @@ if game.PlaceId == 7009799230 then
        getgenv().IrisAd = true 
         local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
      
-    Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness, Goal Kick Simulator, Ragdoll Simulator, Teamwork Obby, Legends Of Speed, Space Simulator 2, Color By Number, 
-Scary Cart Ride.", {
+    Notification.WallNotification("JoshyWare Doesn't Support This Game", "Games: Pressure Wash Simulator, Field Goal Simulator, Clicker Madness, Goal Kick Simulator, Ragdoll Simulator, Teamwork Obby, Legends Of Speed, Space Simulator 2, Color By Number, Scary Cart Ride.", {
         MainSettings = {
             Orientation = "Left",
             VisibleSize = UDim2.new(0.5, 0, 0.5, 0);
