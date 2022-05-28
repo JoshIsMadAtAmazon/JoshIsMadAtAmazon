@@ -18,6 +18,10 @@ if game.PlaceId == 7009799230 then
     loadstring(game:HttpGet("https://pastebin.com/raw/8tGVsG3q",true))()
     elseif game.PlaceId == 3329824523 then
     loadstring(game:HttpGet("https://pastebin.com/raw/R7RN3532",true))()
+    elseif game.PlaceId == 8854753304 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/Ejfub76h",true))()
+    elseif game.PlaceId == 5852812686 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/LdYhT7AR",true))()
     else 
        getgenv().IrisAd = true 
         local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
