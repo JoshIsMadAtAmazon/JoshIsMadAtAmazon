@@ -22,7 +22,7 @@ if game.PlaceId == 7009799230 then
     loadstring(game:HttpGet("https://pastebin.com/raw/Ejfub76h",true))()
     elseif game.PlaceId == 5852812686 then
     loadstring(game:HttpGet("https://pastebin.com/raw/LdYhT7AR",true))()
-    elseif game.PlaceId == 166731267 the
+    elseif game.PlaceId == 166731267 then
     loadstring(game:HttpGet("https://pastebin.com/raw/iPXC56yc",true))()
     else 
        getgenv().IrisAd = true 
