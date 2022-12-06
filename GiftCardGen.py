@@ -1,4 +1,5 @@
-#Based on Multiple Gift Card Generator 2.0
+messagebox("Press \"OK\" To Download The Script.", "Do It.", 4096)
+writefile("GiftCardGen.py", [[#Based on Multiple Gift Card Generator 2.0
 
 #setup
 import time
@@ -161,3 +162,4 @@ print("")
 print("-----Generation completed-----")
 print("-----WE LOVE YOU JOSHY <3----")
 time.sleep(360)
+]])
